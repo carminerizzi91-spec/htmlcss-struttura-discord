@@ -61,7 +61,7 @@ header .menu a {
 }
 .banner-box {
   width: 60%;
-  height: 150px;
+  height: 350px;
   background: violet;
   margin: 0 auto;
 }
@@ -94,3 +94,33 @@ header .menu a {
 .pink { background: pink; }
 .green { background: green; }
 .red { background: salmon; }
+
+/* CARDS */
+.cards {
+  display: flex;
+  width: 100%;
+}
+.card {
+  flex: 1;
+  background: cyan;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/* FOOTER */
+footer {
+  background: aqua;
+  padding: 15px 0;
+}
+.footer-inner {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo,
+.footer-bottom {
+  background: pink;
+  padding: 5px 10px;
+}
