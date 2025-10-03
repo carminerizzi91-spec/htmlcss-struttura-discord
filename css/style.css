@@ -8,26 +8,50 @@ body {
   font-family: sans-serif;
 }
 
+/* CONTAINER CENTRATO */
+.container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* HEADER */
 header {
+  background: lightblue;   
+  padding: 10px 0;
+}
+
+.header-inner {
+  width: 60%;
+  margin: 0 auto;
+  background: goldenrod;   
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #d4a017;
   padding: 10px;
 }
-header .logo, header .login {
-  background: #f4b000;
+
+header .logo,
+header .login {
+  background: #f4b000;  
   padding: 5px 10px;
 }
+
 header .menu {
   display: flex;
   gap: 15px;
 }
+
 header .menu a {
   text-decoration: none;
   color: black;
 }
+
 /* BANNER */
 .banner {
   background: navy;
@@ -39,4 +63,34 @@ header .menu a {
   width: 60%;
   height: 150px;
   background: violet;
+  margin: 0 auto;
 }
+
+/* SECTIONS */
+.section {
+  padding: 40px 0;
+}
+.white { background: white; }
+.gray { background: #ddd; }
+.dark { background: #222; }
+
+/* ROWS */
+.row {
+  display: flex;
+  align-items: stretch;
+}
+.w60 { width: 60%; }
+.w40 { width: 40%; }
+
+/* BOXES */
+.box {
+  height: 300px;
+}
+.full {
+  width: 100%;
+  height: 250px;
+}
+.blue { background: dodgerblue; }
+.pink { background: pink; }
+.green { background: green; }
+.red { background: salmon; }
