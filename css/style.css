@@ -1,0 +1,42 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d4a017;
+  padding: 10px;
+}
+header .logo, header .login {
+  background: #f4b000;
+  padding: 5px 10px;
+}
+header .menu {
+  display: flex;
+  gap: 15px;
+}
+header .menu a {
+  text-decoration: none;
+  color: black;
+}
+/* BANNER */
+.banner {
+  background: navy;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+.banner-box {
+  width: 60%;
+  height: 150px;
+  background: violet;
+}
